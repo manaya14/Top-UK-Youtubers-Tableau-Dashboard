@@ -4,13 +4,13 @@ Interactive Tableau dashboard analyzing the performance of top UK YouTube channe
 
 ## 🔍 Project Overview
 
-The project walks through a real-world dataset containing information like:
-:Channel Name
-:Subscribers Count
-:Video Views
-:Genre / Category
-:Country (UK)
-:Estimated Earnings
+The project walks through a real-world dataset containing information like
+- Channel Name
+- Subscribers Count
+- Video Views
+- Genre / Category
+- Country (UK)
+- Estimated Earnings
 
 We apply Python libraries like pandas, matplotlib, and seaborn to analyze trends, compare performance, and visualize relationships.
 
