@@ -14,15 +14,6 @@ The project walks through a real-world dataset containing information like
 
 We apply Python libraries like pandas, matplotlib, and seaborn to analyze trends, compare performance, and visualize relationships.
 
-## 📂 Dataset
-
-The project uses a global YouTube dataset and a cleaned UK-specific dataset.
-## Raw Dataset
-The original dataset contains YouTube channel information from multiple countries.
-## Cleaned Dataset
-The raw data was cleaned using Python and filtered to retain UK YouTube channels.
-
-
 ## 🛠️ Tools & Technologies
 
 - **Python** — Data cleaning and exploratory data analysis
@@ -31,6 +22,15 @@ The raw data was cleaned using Python and filtered to retain UK YouTube channels
 - **SQLite / SQL** — Analytical queries
 - **Tableau Public** — Interactive dashboard
 
+## 📂 Dataset
+
+The project uses a global YouTube dataset and a cleaned UK-specific dataset.
+- RAW DATASET:The original dataset contains YouTube channel information from multiple countries.
+- CLEANED DATASET:The raw data was cleaned using Python and filtered to retain UK YouTube channels.
+
+## 🐍 Python Analysis
+
+[View Data Cleaning & EDA Notebook](Top_UK_YouTubers_2024.ipynb)
 
 ## 📊 Dashboard Preview
 
