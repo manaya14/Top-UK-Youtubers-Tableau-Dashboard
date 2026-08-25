@@ -7,11 +7,11 @@ The Head of Marketing wants to find out who the top YouTubers are in 2024 to dec
 - What is the ideal solution?
 To create a dashboard that provides insights into the top UK YouTubers in 2024 that includes their
 
--subscriber count
--total views
--total videos, and
--engagement metrics
--This will help the marketing team make informed decisions about which YouTubers to collaborate with for their marketing campaigns.
+- subscriber count
+- total views
+- total videos, and
+- engagement metrics
+-T his will help the marketing team make informed decisions about which YouTubers to collaborate with for their marketing campaigns.
 
 # User story
 As the Head of Marketing, I want to use a dashboard that analyses YouTube channel data in the UK .
@@ -46,12 +46,12 @@ Where is the data coming from? The data is sourced from Kaggle
   
 To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
 
-1.Who are the top 10 YouTubers with the most subscribers?
-2.Which 3 channels have uploaded the most videos?
-3.Which 3 channels have the most views?
-4.Which 3 channels have the highest average views per video?
-5.Which 3 channels have the highest views per subscriber ratio?
-6.Which 3 channels have the highest subscriber engagement rate per video uploaded?
+- 1.Who are the top 10 YouTubers with the most subscribers?
+- 2.Which 3 channels have uploaded the most videos?
+- 3.Which 3 channels have the most views?
+- 4.Which 3 channels have the highest average views per video?
+- 5.Which 3 channels have the highest views per subscriber ratio?
+- 6.Which 3 channels have the highest subscriber engagement rate per video uploaded?
 For now, these are some of the questions we need to answer, this may change as we progress down our analysis.
 
 # Dashboard mockup
