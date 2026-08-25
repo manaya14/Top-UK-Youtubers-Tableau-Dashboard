@@ -94,29 +94,31 @@ Some of the data visuals that may be appropriate in answering our questions incl
 # Pseudocode
 - What's the general approach in creating this solution from start to finish?
 
-1.Get the data
-2.Explore & clean the data python
-3.Load the data into SQL Server
-4.Clean the data with SQL
-5.Test the data with SQL
-6. EDA & Visualization in python
-7. Tableau dashboard
-8.Generate the findings based on the insights
-9.Write the documentation + commentary
-10.Publish the data to GitHub Pages
+- Get the data
+- Explore & clean the data python
+- Load the data into SQL Server
+- Clean the data with SQL
+- Test the data with SQL
+-  EDA & Visualization in python
+- Tableau dashboard
+- Generate the findings based on the insights
+- Write the documentation + commentary
+- Publish the data to GitHub Pages
   
 # Data exploration notes
+
 This is the stage where you have a scan of what's in the data, errors, inconcsistencies, bugs, weird and corrupted characters etc
 
 - What are your initial observations with this dataset? What's caught your attention so far?
 
- 1. The dataset contains YouTube channel information such as subscribers, video views, uploads, category, and country.
-2.The dataset contains channels from multiple countries, so it needs to be filtered for UK channels.
-3.Some columns contain missing values and require cleaning.
-4.Several columns are not required for the final analysis and can be removed.
-5.The data needs to be cleaned and standardized before SQL analysis and Tableau visualization.
+- The dataset contains YouTube channel information such as subscribers, video views, uploads, category, and country.
+- The dataset contains channels from multiple countries, so it needs to be filtered for UK channels.
+- Some columns contain missing values and require cleaning.
+- Several columns are not required for the final analysis and can be removed.
+- The data needs to be cleaned and standardized before SQL analysis and Tableau visualization.
 
 # Data cleaning
+
 - What do we expect the clean data to look like? (What should it contain? What contraints should we apply to it?)
 
 The aim is to refine our dataset to ensure it is structured and ready for analysis.
@@ -128,6 +130,7 @@ The cleaned data should meet the following criteria and constraints:
 - No column should contain null values, indicating complete data for all records.
 
 Below is a table outlining the constraints on our cleaned dataset:
+
 | Property | Value |
 |---|---:|
 | Rows | 43 |
@@ -150,47 +153,56 @@ And here is a tabular representation of the expected schema for the clean data:
 
 - What steps are needed to clean and shape the data into the desired format?
 
-1.Remove unnecessary columns by only selecting the ones you need
-2.Extract Youtube channel names from the first column
-3.Rename columns using aliase
+- Remove unnecessary columns by only selecting the ones you need
+- Extract Youtube channel names from the first column
+- Rename columns using aliase
 
 # Testing
+
 - What data quality and validation checks are you going to create?
+
 Here are the data quality tests conducted:
 
 # Row count check
+
  <img width="881" height="111" alt="row count check" src="https://github.com/user-attachments/assets/0d9ab9ad-9ad9-4abc-aa75-b75f8a0b6edb" />
 
 # Column count check
+
 <img width="881" height="135" alt="column count check" src="https://github.com/user-attachments/assets/50598cf3-0b3a-4de2-be12-f40d59399486" />
 
 # Data type check
+
 <img width="1108" height="339" alt="data type check" src="https://github.com/user-attachments/assets/b35f6a5c-2a76-4cbd-88b8-3dd7901e1908" />
 
 # Duplicate count check
+
 <img width="682" height="323" alt="duplicate count check" src="https://github.com/user-attachments/assets/e8159448-0270-47b5-876d-92af94d2aa18" />
 
 # Visualization
+
 # Results
 
 - What does the dashboard look like
+  
   <img width="660" height="587" alt="top uk youtubers tableau dashboard" src="https://github.com/user-attachments/assets/4ffb524c-627b-4c20-87b8-ee722fcf85b6" />
 
   # Analysis
   
   # Findings
+  
 - What did we find?
   
 For this analysis, we're going to focus on the questions below to get the information we need for our marketing client -
 
 Here are the key questions we need to answer for our marketing client:
 
-Who are the top 10 YouTubers with the most subscribers?
-Which 3 channels have uploaded the most videos?
-Which 3 channels have the most views?
-Which 3 channels have the highest average views per video?
-Which 3 channels have the highest views per subscriber ratio?
-Which 3 channels have the highest subscriber engagement rate per video uploaded?
+- Who are the top 10 YouTubers with the most subscribers?
+- Which 3 channels have uploaded the most videos?
+- Which 3 channels have the most views?
+- Which 3 channels have the highest average views per video?
+- Which 3 channels have the highest views per subscriber ratio?
+- Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
 # 1. Who are the top 10 YouTubers with the most subscribers?
 
