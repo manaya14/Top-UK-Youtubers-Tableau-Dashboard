@@ -46,22 +46,22 @@ Where is the data coming from? The data is sourced from Kaggle
   
 To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
 
-- 1.Who are the top 10 YouTubers with the most subscribers?
-- 2.Which 3 channels have uploaded the most videos?
-- 3.Which 3 channels have the most views?
-- 4.Which 3 channels have the highest average views per video?
-- 5.Which 3 channels have the highest views per subscriber ratio?
-- 6.Which 3 channels have the highest subscriber engagement rate per video uploaded?
+- Who are the top 10 YouTubers with the most subscribers?
+- Which 3 channels have uploaded the most videos?
+- Which 3 channels have the most views?
+- Which 3 channels have the highest average views per video?
+- Which 3 channels have the highest views per subscriber ratio?
+- Which 3 channels have the highest subscriber engagement rate per video uploaded?
 For now, these are some of the questions we need to answer, this may change as we progress down our analysis.
 
 # Dashboard mockup
 - What should it look like?
 Some of the data visuals that may be appropriate in answering our questions include:
 
-1.Table
-2.Treemap
-3.Scorecards
-4.Horizontal bar chart
+- Table
+- Treemap
+- Scorecards
+- Horizontal bar chart
 
 <img width="740" height="527" alt="tableau_dashboard" src="https://github.com/user-attachments/assets/55535104-ede1-4aab-9c11-0c28d4c49a41" />
 
