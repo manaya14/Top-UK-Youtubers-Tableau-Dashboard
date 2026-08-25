@@ -93,6 +93,7 @@ Some of the data visuals that may be appropriate in answering our questions incl
 # Development
 # Pseudocode
 - What's the general approach in creating this solution from start to finish?
+
 1.Get the data
 2.Explore & clean the data python
 3.Load the data into SQL Server
