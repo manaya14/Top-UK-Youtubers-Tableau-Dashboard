@@ -75,10 +75,13 @@ Some of the data visuals that may be appropriate in answering our questions incl
 - Scorecards
 - Horizontal bar chart
 
+
 <img width="740" height="527" alt="tableau_dashboard" src="https://github.com/user-attachments/assets/55535104-ede1-4aab-9c11-0c28d4c49a41" />
 
 
+
 ## Tools
+
 
 | Tool | Purpose |
 |---|---|
@@ -89,6 +92,7 @@ Some of the data visuals that may be appropriate in answering our questions incl
 | SQLite | SQL querying and data analysis |
 | Tableau Public | Interactive dashboard creation |
 | GitHub | Project documentation and version control |
+
 
 # Development
 
@@ -132,13 +136,17 @@ The cleaned data should meet the following criteria and constraints:
 
 Below is a table outlining the constraints on our cleaned dataset:
 
+
 | Property | Value |
 |---|---:|
 | Rows | 43 |
 | Columns | 31 |
 | Country | United Kingdom |
 
+
+
 And here is a tabular representation of the expected schema for the clean data:
+
 
 | Column | Description |
 |---|---|
@@ -151,6 +159,8 @@ And here is a tabular representation of the expected schema for the clean data:
 | avg_views_per_subscriber | Average views per subscriber |
 | avg_views_per_video | Average views per video |
 | engagement_rate | Channel engagement rate |
+
+
 
 - What steps are needed to clean and shape the data into the desired format?
 
