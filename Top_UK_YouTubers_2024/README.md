@@ -1,4 +1,22 @@
 <img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/45fdcfba-54b1-4bdc-95c0-01923f6b7f3f" />
+# Table of Contents
+
+- [Objective](#objective)
+- [Data Source](#data-source)
+- [Stages](#stages)
+- [Design](#design)
+  - [Tools](#tools)
+- [Development](#development)
+  - [Pseudocode](#pseudocode)
+  - [Data Exploration](#data-exploration)
+  - [Data Cleaning](#data-cleaning)
+- [Testing](#testing)
+  - [Data Quality Tests](#data-quality-tests)
+- [Visualization](#visualization)
+  - [Results](#results)
+- [Analysis](#analysis)
+  - [Findings](#findings)
+
 
 # Objective
 - What is the key pain point?
